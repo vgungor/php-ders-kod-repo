@@ -1,0 +1,250 @@
+/* Made with love by Mutiullah Samim*/
+
+@import url("https://fonts.googleapis.com/css?family=Numans");
+
+html,
+body {
+  /* background-image: url("http://getwallpapers.com/wallpaper/full/a/5/d/544750.jpg"); */
+  background-image: url(image-lr.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; /* CHANGED: Center background for better mobile display */
+  height: 100%;
+  font-family: "Numans", sans-serif;
+  overflow-x: hidden; /* CHANGED: Prevent horizontal scrolling on mobile */
+}
+
+.container {
+  height: 100%;
+  align-content: center;
+  padding: 15px; /* CHANGED: Added padding for mobile */
+}
+
+.card {
+  height: auto; /* CHANGED: Changed from fixed 370px to auto for better mobile flexibility */
+  min-height: 370px; /* CHANGED: Added min-height to maintain reasonable size */
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 400px;
+  max-width: 100%; /* CHANGED: Ensure card doesn't exceed viewport width */
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.social_icon span {
+  font-size: 60px;
+  margin-left: 10px;
+  color: #ffc312;
+}
+
+.social_icon span:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.card-header h3 {
+  color: white;
+  font-size: 1.75rem; /* CHANGED: Made font size relative */
+}
+
+.social_icon {
+  position: absolute;
+  right: 20px;
+  top: -45px;
+}
+
+.input-group-prepend span {
+  width: 50px;
+  background-color: #ffc312;
+  color: black;
+  border: 0 !important;
+}
+
+input:focus {
+  outline: 0 0 0 0 !important;
+  box-shadow: 0 0 0 0 !important;
+}
+
+.remember {
+  color: white;
+}
+
+.remember input {
+  width: 20px;
+  height: 20px;
+  margin-left: 15px;
+  margin-right: 5px;
+}
+
+.login_btn {
+  color: black;
+  background-color: #ffc312;
+  width: 100px;
+  min-width: 100px; /* CHANGED: Added min-width to prevent button collapse */
+  padding: 10px; /* CHANGED: Added padding for better touch target */
+}
+
+.login_btn:hover {
+  color: black;
+  background-color: white;
+}
+
+.links {
+  color: white;
+}
+
+.links a {
+  margin-left: 4px;
+}
+
+/* CHANGED: Mobile-specific styles for very small screens */
+@media (max-width: 576px) {
+  .container {
+    padding: 10px;
+  }
+
+  .card {
+    width: 100% !important;
+    margin-top: 20px !important;
+    padding: 10px; /* CHANGED: Added internal padding */
+  }
+
+  .card-header h3 {
+    font-size: 1.5rem;
+    text-align: center; /* CHANGED: Center title on mobile */
+  }
+
+  .card-body {
+    padding: 1rem; /* CHANGED: Adjusted padding for mobile */
+  }
+
+  .form-group {
+    margin-bottom: 1rem; /* CHANGED: Consistent spacing */
+  }
+
+  .input-group {
+    margin-bottom: 0.75rem; /* CHANGED: Better spacing between inputs */
+  }
+
+  .login_btn {
+    width: 100%; /* CHANGED: Full-width button on mobile */
+    float: none !important; /* CHANGED: Remove float on mobile */
+  }
+
+  .alert {
+    font-size: 0.9rem; /* CHANGED: Smaller alert text on mobile */
+    padding: 0.5rem; /* CHANGED: Reduced padding */
+  }
+
+  /* CHANGED: Ensure form inputs are touch-friendly */
+  .form-control {
+    font-size: 16px; /* CHANGED: Prevent zoom on iOS when focusing inputs */
+    height: calc(2.5em + 0.75rem + 2px); /* CHANGED: Larger touch targets */
+  }
+
+  .input-group-prepend span {
+    width: 45px; /* CHANGED: Slightly smaller icons on mobile */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+/* CHANGED: Tablet-specific styles */
+@media (min-width: 577px) and (max-width: 768px) {
+  .container {
+    padding: 15px;
+  }
+
+  .card {
+    width: 90% !important;
+    max-width: 450px; /* CHANGED: Limit maximum width on tablets */
+    margin-top: 30px !important;
+  }
+
+  .card-header h3 {
+    font-size: 1.6rem;
+  }
+
+  .form-control {
+    font-size: 16px; /* CHANGED: Prevent zoom on iOS */
+  }
+}
+
+/* CHANGED: Landscape orientation adjustments for mobile devices */
+@media (max-width: 768px) and (orientation: landscape) {
+  .container {
+    height: auto;
+    min-height: 100vh;
+    padding: 15px 10px;
+  }
+
+  .card {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .card-header h3 {
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .card-body {
+    padding: 0.75rem;
+  }
+
+  .form-group {
+    margin-bottom: 0.75rem;
+  }
+}
+
+/* CHANGED: Improved accessibility for touch devices */
+@media (hover: none) and (pointer: coarse) {
+  .login_btn,
+  .form-control,
+  .input-group-prepend span {
+    min-height: 44px; /* CHANGED: Apple's recommended minimum touch target size */
+  }
+
+  .login_btn:active {
+    background-color: #e6b010; /* CHANGED: Visual feedback on touch */
+    transform: scale(0.98); /* CHANGED: Subtle press effect */
+  }
+}
+
+/* CHANGED: Ensure the card is readable on all screen sizes */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .container {
+    padding: 20px;
+  }
+
+  .card {
+    width: 100% !important;
+    max-width: 500px; /* CHANGED: Reasonable size for tablets */
+    margin-top: 30px !important;
+  }
+
+  h3 {
+    font-size: 1.75rem;
+  }
+}
+
+/* CHANGED: Additional improvements for small devices */
+@media (max-width: 400px) {
+  .card-header h3 {
+    font-size: 1.3rem;
+  }
+
+  .input-group-prepend span {
+    width: 40px;
+    font-size: 0.9rem;
+  }
+
+  .form-control {
+    font-size: 14px;
+  }
+
+  .login_btn {
+    font-size: 0.9rem;
+    padding: 8px;
+  }
+}

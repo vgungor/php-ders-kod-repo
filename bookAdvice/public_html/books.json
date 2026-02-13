@@ -1,0 +1,156 @@
+[
+    {
+        "id": 1,
+        "title": "Kitap 2",
+        "author": "",
+        "advicer": "admin@example.com"
+    },
+    {
+        "id": 2,
+        "title": "Kitap 1",
+        "author": "",
+        "advicer": "admin@example.com"
+    },
+    {
+        "id": 3,
+        "title": "Kitap 4",
+        "author": "",
+        "advicer": "admin@example.com"
+    },
+    {
+        "id": 4,
+        "title": "Kitap 7",
+        "author": "Yazar 5, Yazar6",
+        "advicer": "admin@example.com"
+    },
+    {
+        "id": 5,
+        "title": "Kitap 7",
+        "author": "Yazar 5, Yazar6",
+        "advicer": "admin@example.com"
+    },
+    {
+        "id": 6,
+        "title": "Kitap 7",
+        "author": "Yazar 5, Yazar6",
+        "advicer": "admin@example.com"
+    },
+    {
+        "id": 7,
+        "title": "Kitap 8",
+        "author": "Yazar 5, Yazar6",
+        "advicer": "admin@example.com"
+    },
+    {
+        "id": 8,
+        "title": "Kitap 8",
+        "author": "Yazar 5, Yazar6",
+        "advicer": "admin@example.com"
+    },
+    {
+        "id": 9,
+        "title": "Kitap 4",
+        "author": "Yazar 3, Yazar 4, Yazar 5",
+        "advicer": "admin@example.com"
+    },
+    {
+        "id": 10,
+        "title": "Kitap 10",
+        "author": "Yazar 5",
+        "advicer": "admin@example.com"
+    },
+    {
+        "id": 11,
+        "title": "Kitap 11",
+        "author": "Yazar 11",
+        "advicer": "admin@example.com"
+    },
+    {
+        "id": 12,
+        "title": "Ali",
+        "author": "Veli",
+        "advicer": "admin@example.com"
+    },
+    {
+        "id": 13,
+        "title": "1984",
+        "author": "George Orwell",
+        "advicer": "admin@example.com"
+    },
+    {
+        "id": 14,
+        "title": "Animal Farm",
+        "author": "George Orwell",
+        "advicer": "admin@example.com"
+    },
+    {
+        "id": 15,
+        "title": "Y\u00fcr\u00fcme",
+        "author": "Oru\u00e7 Aruoba",
+        "advicer": "test@example.com"
+    },
+    {
+        "id": 16,
+        "title": "book 31",
+        "author": "yazar31, 32",
+        "advicer": "test@example.com",
+        "comment": "Hayvan \u00c7iftli\u011fi, George Orwell\u2019\u0131n totaliter rejimleri ve iktidar\u0131n yozla\u015ft\u0131r\u0131c\u0131 do\u011fas\u0131n\u0131 alegorik bir dille anlatt\u0131\u011f\u0131 \u00e7arp\u0131c\u0131 bir eserdir. Bir \u00e7iftlikte hayvanlar\u0131n e\u015fitlik ve \u00f6zg\u00fcrl\u00fck vaadiyle ba\u015flatt\u0131\u011f\u0131 devrim, zamanla yeni bir bask\u0131 d\u00fczenine d\u00f6n\u00fc\u015f\u00fcr. Ba\u015flang\u0131\u00e7ta t\u00fcm hayvanlar\u0131n ortak idealler etraf\u0131nda birle\u015fmesi umut vericiyken, iktidar\u0131 ele ge\u00e7iren domuzlar\u0131n di\u011fer hayvanlar \u00fczerinde kurdu\u011fu tahakk\u00fcm, devrimlerin nas\u0131l kendi ilkelerini ink\u00e2r edebilece\u011fini g\u00f6sterir.\r\n\r\nOrwell, sade ve ak\u0131c\u0131 bir anlat\u0131mla propaganda, manip\u00fclasyon ve itaat kavramlar\u0131n\u0131 g\u00f6zler \u00f6n\u00fcne serer. Roman, yaln\u0131zca Sovyetler Birli\u011fi ele\u015ftirisi de\u011fil; ayn\u0131 zamanda her d\u00f6nemde ve her toplumda iktidar\u0131n sorgulanmas\u0131 gerekti\u011fine dair evrensel bir uyar\u0131d\u0131r. K\u0131sa olmas\u0131na ra\u011fmen g\u00fc\u00e7l\u00fc mesajlar i\u00e7eren Hayvan \u00c7iftli\u011fi, politik bilin\u00e7 ve ele\u015ftirel d\u00fc\u015f\u00fcnme a\u00e7\u0131s\u0131ndan mutlaka okunmas\u0131 gereken bir klasiktir.",
+        "cover_link": "https:\/\/share.google\/HoT8Eu4QL2O0Q79BR"
+    },
+    {
+        "id": 17,
+        "title": "kitap 31",
+        "author": "31",
+        "advicer": "test@example.com",
+        "comment": "1333333333333333333333",
+        "cover_link": "https:\/\/www.google.com"
+    },
+    {
+        "id": 19,
+        "title": "kitap 54",
+        "author": "54",
+        "advicer": "test@example.com",
+        "comment": "wwwwwwwww wwwww wwwwww wwwwwww wwwwwww wwwwwww wwwwwwwww wwwwww wwwwwww wwwwwwww wwwwwww wwwwwwww wwwwwwww www wwwwwww wwwwwwww wwwwww wwwwwww wwwwwww wwwwww wwwwwwww wwww wwwwwwwww wwwwwww www wwwwww wwwwwwwww wwwwwwww wwwwwwwwwwwww wwwwwwww wwwww wwwwwwwwww wwwwwwww wwwwww wwww wwwwwwww w qqqq",
+        "cover_link": "https:\/\/share.google\/HoT8Eu4QL2O0Q79BR"
+    },
+    {
+        "id": 20,
+        "title": "kitap 101",
+        "author": "11",
+        "advicer": "test@example.com",
+        "comment": "Orwell, sade ve ak\u0131c\u0131 bir anlat\u0131mla propaganda, manip\u00fclasyon ve itaat kavramlar\u0131n\u0131 g\u00f6zler \u00f6n\u00fcne serer. Roman, yaln\u0131zca Sovyetler Birli\u011fi ele\u015ftirisi de\u011fil; ayn\u0131 zamanda her d\u00f6nemde ve her toplumda iktidar\u0131n sorgulanmas\u0131 gerekti\u011fine dair evrensel bir uyar\u0131d\u0131r. K\u0131sa olmas\u0131na ra\u011fmen g\u00fc\u00e7l\u00fc mesajlar i\u00e7eren Hayvan \u00c7iftli\u011fi, politik bilin\u00e7 ve ele\u015ftirel d\u00fc\u015f\u00fcnme a\u00e7\u0131s\u0131ndan mutlaka okunmas\u0131 gereken bir klasiktir.",
+        "cover_link": "https:\/\/share.google\/HoT8Eu4QL2O0Q79BR"
+    },
+    {
+        "id": 21,
+        "title": "kitap 191",
+        "author": "23",
+        "advicer": "test@example.com",
+        "comment": "Hayvan \u00c7iftli\u011fi, George Orwell\u2019\u0131n totaliter rejimleri ve iktidar\u0131n yozla\u015ft\u0131r\u0131c\u0131 do\u011fas\u0131n\u0131 alegorik bir dille anlatt\u0131\u011f\u0131 \u00e7arp\u0131c\u0131 bir eserdir. Bir \u00e7iftlikte hayvanlar\u0131n e\u015fitlik ve \u00f6zg\u00fcrl\u00fck vaadiyle ba\u015flatt\u0131\u011f\u0131 devrim, zamanla yeni bir bask\u0131 d\u00fczenine d\u00f6n\u00fc\u015f\u00fcr. Ba\u015flang\u0131\u00e7ta t\u00fcm hayvanlar\u0131n ortak idealler etraf\u0131nda birle\u015fmesi umut vericiyken, iktidar\u0131 ele ge\u00e7iren domuzlar\u0131n di\u011fer hayvanlar \u00fczerinde kurdu\u011fu tahakk\u00fcm, devrimlerin nas\u0131l kendi ilkelerini ink\u00e2r edebilece\u011fini g\u00f6sterir.",
+        "cover_link": "https:\/\/share.google\/HoT8Eu4QL2O0Q79BR"
+    },
+    {
+        "id": 22,
+        "title": "kitap 89",
+        "author": "424",
+        "advicer": "test@example.com",
+        "comment": "Hayvan \u00c7iftli\u011fi, George Orwell\u2019\u0131n totaliter rejimleri ve iktidar\u0131n yozla\u015ft\u0131r\u0131c\u0131 do\u011fas\u0131n\u0131 alegorik bir dille anlatt\u0131\u011f\u0131 \u00e7arp\u0131c\u0131 bir eserdir. Bir \u00e7iftlikte hayvanlar\u0131n e\u015fitlik ve \u00f6zg\u00fcrl\u00fck vaadiyle ba\u015flatt\u0131\u011f\u0131 devrim, zamanla yeni bir bask\u0131 d\u00fczenine d\u00f6n\u00fc\u015f\u00fcr. Ba\u015flang\u0131\u27e8ta t\u00fcm hayvanlar\u0131n ortak idealler etraf\u0131nda birle\u015fmesi umut vericiyken, iktidar\u0131 ele ge\u00e7iren domuzlar\u0131n di\u011fer hayvanlar \u00fczerinde kurdu\u011fu tahakk\u00fcm, devrimlerin nas\u0131l kendi ilkelerini inkar edebilece\u011fini g\u00f6sterir. Orwell, sade ve ak\u0131c\u0131 bir anlat\u0131mla propaganda, manip\u00fclasyon ve itaat kavramlar\u0131n\u0131 g\u00f6zler \u00f6n\u00fcne serer. Roman, yaln\u0131zca Sovyetler Birli\u011fi ele\u015ftirisi de\u011fil; ayn\u0131 zamanda her d\u00f6nem ve her toplumda iktidar\u0131n sorgulanmas\u0131n\u0131n gerekti\u011fine dair evrensel bir uyar\u0131d\u0131r. K\u0131sa olmas\u0131na ra\u011fmen g\u00fc\u00e7l\u00fc mesajlar i\u00e7eren Hayvan \u00c7iftli\u011fi, politik bilin\u00e7 ve ele\u015ftirel d\u00fc\u015f\u00fcnme a\u00e7\u0131s\u0131ndan mutlaka okunmas\u0131 gereken bir klasiktir.",
+        "cover_link": "https:\/\/share.google\/HoT8Eu4QL2O0Q79BR"
+    },
+    {
+        "id": 23,
+        "title": "kitap3131",
+        "author": "31313",
+        "advicer": "test@example.com",
+        "comment": "Hayvan \u00c7iftli\u011fi, George Orwell\u2019\u0131n totaliter rejimleri ve iktidar\u0131n yozla\u015ft\u0131r\u0131c\u0131 do\u011fas\u0131n\u0131 alegorik bir dille anlatt\u0131\u011f\u0131 \u00e7arp\u0131c\u0131 bir eserdir. Bir \u00e7iftlikte hayvanlar\u0131n e\u015fitlik ve \u00f6zg\u00fcrl\u00fck vaadiyle ba\u015flatt\u0131\u011f\u0131 devrim, zamanla yeni bir bask\u0131 d\u00fczenine d\u00f6n\u00fc\u015f\u00fcr. Ba\u015flang\u0131\u00e7ta t\u00fcm hayvanlar\u0131n ortak idealler etraf\u0131nda birle\u015fmesi umut vericiyken, iktidar\u0131 ele ge\u00e7iren domuzlar\u0131n di\u011fer hayvanlar \u00fczerinde kurdu\u011fu tahakk\u00fcm, devrimlerin nas\u0131l kendi ilkelerini ink\u00e2r edebilece\u011fini g\u00f6sterir.\r\n\r\nOrwell, sade ve ak\u0131c\u0131 bir anlat\u0131mla propaganda, manip\u00fclasyon ve itaat kavramlar\u0131n\u0131 g\u00f6zler \u00f6n\u00fcne serer. Roman, yaln\u0131zca Sovyetler Birli\u011fi ele\u015ftirisi de\u011fil; ayn\u0131 zamanda her d\u00f6nemde ve her toplumda iktidar\u0131n sorgulanmas\u0131 gerekti\u011fine dair evrensel bir uyar\u0131d\u0131r. K\u0131sa olmas\u0131na ra\u011fmen g\u00fc\u00e7l\u00fc mesajlar i\u00e7eren Hayvan \u00c7iftli\u011fi, politik bilin\u00e7 ve ele\u015ftirel d\u00fc\u015f\u00fcnme a\u00e7\u0131s\u0131ndan mutlaka okunmas\u0131 gereken bir klasiktir.",
+        "cover_link": "https:\/\/share.google\/HoT8Eu4QL2O0Q79BR"
+    },
+    {
+        "id": 24,
+        "title": "Kitap 2",
+        "author": "dffd",
+        "advicer": "admin@example.com",
+        "comment": "ffdf",
+        "cover_link": ""
+    }
+]
