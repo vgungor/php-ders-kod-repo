@@ -1,0 +1,131 @@
+/* style.css */
+
+/* Tüm elementler için temel sıfırlama ayarları */
+* {
+  margin: 0; /* Sayfadaki tüm varsayılan dış boşlukları sıfırlar */
+  padding: 0; /* Sayfadaki tüm varsayılan iç boşlukları sıfırlar */
+  box-sizing: border-box; /* Padding ve border değerlerini elemanın toplam genişliğine dahil eder */
+}
+
+/* Sayfanın genel gövde ayarları */
+body {
+  font-family:
+    "Arial", sans-serif; /* Yazı tipini ayarlar, Arial yoksa genel sans-serif tipini kullanır */
+  line-height: 1.6; /* Satırlar arasındaki mesafeyi (okunabilirliği) artırır */
+  color: #333; /* Genel metin rengini koyu gri yapar */
+}
+
+/* Üst kısım (Giriş/Header) tasarımı */
+header {
+  background: linear-gradient(
+    135deg,
+    #667eea 0%,
+    #764ba2 100%
+  ); /* Mordan maviye şık bir renk geçişi sağlar */
+  color: white; /* Header içindeki metinleri beyaz yapar */
+  text-align: center; /* İçerikleri yatayda ortalar */
+  padding: 50px 20px; /* Üst-alt 50px, sağ-sol 20px iç boşluk verir */
+}
+
+/* Header içindeki profil resmi ayarları */
+header img {
+  width: 150px; /* Resmin genişliğini sabitler */
+  height: 150px; /* Resmin yüksekliğini sabitler */
+  border-radius: 50%; /* Resmi tam daire yapar */
+  border: 5px solid white; /* Resmin etrafına beyaz bir çerçeve ekler */
+  object-fit: cover; /* Resmin boyutlandırılırken oranının bozulmamasını sağlar */
+}
+
+/* Ana başlık stili */
+h1 {
+  margin: 20px 0 10px; /* Üstten 20px, alttan 10px boşluk bırakır */
+  font-size: 2.5em; /* Yazı boyutunu büyük tutar */
+}
+
+/* Bölüm (Hakkımda, Beceriler vb.) yerleşimi */
+section {
+  max-width: 800px; /* İçeriğin çok genişleyip okunurluğu bozmasını engeller */
+  margin: 40px auto; /* Bölümleri dikeyde ayırır ve yatayda sayfayı ortalar */
+  padding: 20px; /* İçerik ile kenarlar arasında boşluk bırakır */
+}
+
+/* Alt başlıkların (H2) stili */
+h2 {
+  color: #667eea; /* Başlık rengini temaya uygun mavi yapar */
+  border-bottom: 3px solid #667eea; /* Altına kalın bir çizgi çeker */
+  padding-bottom: 10px; /* Çizgi ile yazı arasına boşluk verir */
+  margin-bottom: 20px; /* Başlıktan sonraki içerikle arayı açar */
+}
+
+/* Beceriler listesinin genel ayarları */
+#beceriler ul {
+  list-style: none; /* Liste başındaki noktaları (bullet points) kaldırır */
+}
+
+/* Her bir beceri kutucuğu */
+#beceriler li {
+  background: #f4f4f4; /* Hafif gri bir arka plan verir */
+  padding: 10px; /* Metin etrafına boşluk ekler */
+  margin: 10px 0; /* Kutular arasına mesafe koyar */
+  border-left: 4px solid #667eea; /* Sol tarafa vurgulu bir dikey çizgi ekler */
+}
+
+/* Sosyal medya link butonları */
+.sosyal-medya a {
+  display: inline-block; /* Yan yana dizilmelerini ve boyut alabilmelerini sağlar */
+  margin: 10px; /* Butonlar arası boşluk */
+  padding: 10px 20px; /* Butonun iç genişliği */
+  background: #667eea; /* Buton arka plan rengi */
+  color: white; /* Buton yazı rengi */
+  text-decoration: none; /* Linklerin alt çizgisini kaldırır */
+  border-radius: 5px; /* Köşeleri hafifçe yuvarlar */
+  transition: 0.3s; /* Efektlerin (renk, hareket) yumuşak geçiş yapmasını sağlar */
+}
+
+/* Butonun üzerine gelindiğinde (Hover durumu) */
+.sosyal-medya a:hover {
+  background: #764ba2; /* Rengi mora dönüştürür */
+  transform: translateY(
+    -3px
+  ); /* Butonu hafifçe yukarı kaydırarak derinlik hissi verir */
+}
+
+/* Sayfa alt bilgisi (Footer) */
+footer {
+  background: #333; /* Koyu gri/siyah arka plan */
+  color: white; /* Beyaz metin */
+  text-align: center; /* Metni ortalar */
+  padding: 20px; /* İç boşluk */
+  margin-top: 40px; /* Üstteki içerikten uzaklaştırır */
+}
+
+/* Mobil cihazlar için temel font ayarı */
+body {
+  font-size: 16px;
+}
+
+/* --- Responsive (Duyarlı Tasarım) Ayarları --- */
+
+/* Tablet ve üstü ekranlar için (768px'den geniş) */
+@media (min-width: 768px) {
+  section {
+    padding: 30px; /* Geniş ekranlarda bölümlere daha fazla hava katmak için padding artar */
+  }
+}
+
+/* Masaüstü ekranlar için (1024px'den geniş) */
+@media (min-width: 1024px) {
+  body {
+    font-size: 18px; /* Yazıları daha okunabilir yapmak için biraz büyütür */
+  }
+
+  /* Beceriler listesini yan yana 2 kolonlu ızgara yapısına geçirir */
+  #beceriler ul {
+    display: grid; /* Izgara (Grid) sistemini aktif eder */
+    grid-template-columns: repeat(
+      2,
+      1fr
+    ); /* Yan yana eşit genişlikte 2 sütun oluşturur */
+    gap: 15px; /* Sütunlar ve satırlar arasındaki boşluk */
+  }
+}
