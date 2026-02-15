@@ -1,0 +1,138 @@
+:root {
+  --primary: #2c3e50;
+  --accent: #3498db;
+  --border: #e2e8f0;
+  --bg-empty: #f8fafc;
+  --mvg-bg: linear-gradient(135deg, #cee0f1 0%, #96bee6 100%);
+  --mvg-border: #dce73c;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  background: #f1f5f9;
+  /* Masaüstünde taşmayı engeller */
+  overflow: hidden;
+}
+
+.container {
+  height: 100vh;
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.table-wrapper {
+  flex: 1;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  /* Mobilde yatay kaydırma, masaüstünde tam sığdırma sağlar */
+  overflow: auto;
+}
+
+table {
+  width: 100%;
+  height: 100%;
+  border-collapse: collapse;
+  /* Genişliği sütunlara eşit paylaştırır */
+  table-layout: fixed;
+  min-width: 800px; /* Mobilde tablonun büzülmesini engeller */
+}
+
+th {
+  background: var(--primary);
+  color: white;
+  font-size: 0.9rem;
+  padding: 10px 5px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+td {
+  border: 1px solid var(--border);
+  padding: 2px;
+  text-align: center;
+  vertical-align: stretch;
+}
+
+.saat-kolonu {
+  width: 85px;
+  background: #fdfdfd;
+  font-weight: bold;
+  color: var(--primary);
+  font-size: 0.85rem;
+}
+
+.empty-cell {
+  background-color: var(--bg-empty);
+  opacity: 0.4;
+}
+
+/* Ders Kartı Ayarları */
+.ders-item {
+  height: 100%;
+  background: linear-gradient(to bottom right, #ffffff, #f0f7ff);
+  border-left: 4px solid var(--accent);
+  border-radius: 4px;
+  padding: 6px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+}
+
+.ders-name {
+  font-weight: 700;
+  color: #1e40af;
+  /* VW yerine clamp kullanarak fontu sınırlıyoruz: min 12px, ideal %1 genişlik, max 16px */
+  font-size: clamp(12px, 0.9vw, 16px);
+  line-height: 1.2;
+  margin-bottom: 3px;
+}
+
+.ders-info {
+  font-size: clamp(10px, 0.75vw, 13px);
+  color: #64748b;
+  line-height: 1.2;
+}
+
+.time-badge {
+  display: inline-block;
+  background: #dbeafe;
+  color: #1e40af;
+  padding: 2px 5px;
+  border-radius: 3px;
+  margin-top: 4px;
+  font-weight: 600;
+  font-size: clamp(9px, 0.65vw, 11px);
+}
+
+/* Mustafa Volkan Güngör (MVG) Özel Ders Stili */
+.ders-item.ozel-ders {
+  background: var(--mvg-bg);
+  border-left: 5px solid var(--mvg-border);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Düzenlemeler */
+@media (max-width: 768px) {
+  html,
+  body {
+    overflow: auto; /* Mobilde sayfa kaydırılabilsin */
+  }
+  .container {
+    height: auto; /* Mobilde dikeyde sınırlama */
+  }
+  .table-wrapper {
+    overflow-x: scroll; /* Mobilde tabloyu sağa kaydır */
+  }
+  table {
+    height: 600px; /* Mobilde minimum dikey yükseklik */
+  }
+}

@@ -875,7 +875,7 @@ $booksJson = json_encode($books);
             <div class="header-section">
                 <div class="d-flex justify-content-between align-items-center">
                     <div>
-                        <h2><i class="fas fa-book"></i>EGE KÜTÜPHANE</h2>
+                        <h2><i class="fas fa-book"></i>MBP 192 KÜTÜPHANE</h2>
                         <p class="mb-0">
                             Merhaba, <?php echo htmlspecialchars($_SESSION['user_email']); ?>
                             <?php if ($isAdmin): ?>
