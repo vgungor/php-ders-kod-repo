@@ -20,6 +20,32 @@ $dizi_sozluk = array ( "ad" => "Ali", "soyad" => "Yazar",);
 $bosVeri = null;
 
 // 7. Object (Nesne)
+// 1. Sınıf (Şablon) Tanımlama
+class Berber {
+    public $isim;
+    public $uzmanlik;
+
+    // Nesne oluşturulduğunda çalışan fonksiyon
+    public function __construct($ad, $alan) {
+        $this->isim = $ad;
+        $this->uzmanlik = $alan;
+    }
+
+    public function selamVer() {
+        return "Merhaba, ben " . $this->isim . ". Uzmanlık alanım: " . $this->uzmanlik;
+    }
+}
+
+// 2. Nesne (Object) Oluşturma
+$berberNesnesi = new Berber("Volkan", "Saç Tasarımı");
+
+// 3. Yapısını İnceleme
+echo "<h2>Object Veri Tipi Yapısı:</h2>";
+var_dump($berberNesnesi); 
+
+echo "<br><br>";
+// Nesne içindeki metoda erişim
+echo $berberNesnesi->selamVer();
 
 
 // --- var_dump() ile Veri Tiplerini İnceleyelim ---

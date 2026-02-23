@@ -1,0 +1,202 @@
+[
+    {
+        "ders_adi": "İnternet Programcılığı I \/ MBP 192(1) - MBP 102(1)",
+        "gun": "Pazartesi",
+        "baslangic": "14:00",
+        "bitis": "14:45",
+        "sube": "1",
+        "derslik": "MB 161 [60]"
+    },
+    {
+        "ders_adi": "İnternet Programcılığı I \/ MBP 192(1) - MBP 102(1)",
+        "gun": "Pazartesi",
+        "baslangic": "14:55",
+        "bitis": "15:40",
+        "sube": "1",
+        "derslik": "MB 161 [60]"
+    },
+    {
+        "ders_adi": "İnternet Programcılığı I \/ MBP 192(2) - MBP 102(2)",
+        "gun": "Pazartesi",
+        "baslangic": "15:50",
+        "bitis": "16:35",
+        "sube": "2",
+        "derslik": "MB 161 [60]"
+    },
+    {
+        "ders_adi": "İnternet Programcılığı I \/ MBP 192(2) - MBP 102(2)",
+        "gun": "Pazartesi",
+        "baslangic": "16:45",
+        "bitis": "17:30",
+        "sube": "2",
+        "derslik": "MB 161 [60]"
+    },
+    {
+        "ders_adi": "İnternet Programcılığı I \/ MBP 192(3) - MBP 102(3)",
+        "gun": "Pazartesi",
+        "baslangic": "17:40",
+        "bitis": "18:25",
+        "sube": "3",
+        "derslik": "MB 161 [60]"
+    },
+    {
+        "ders_adi": "İnternet Programcılığı I \/ MBP 192(3) - MBP 102(3)",
+        "gun": "Pazartesi",
+        "baslangic": "18:35",
+        "bitis": "19:20",
+        "sube": "3",
+        "derslik": "MB 161 [60]"
+    },
+    {
+        "ders_adi": "İnternet Programcılığı I \/ MBP 192(1) - MBP 102(1)",
+        "gun": "Çarşamba",
+        "baslangic": "14:00",
+        "bitis": "14:45",
+        "sube": "1",
+        "derslik": "C 601 [30]"
+    },
+    {
+        "ders_adi": "İnternet Programcılığı I \/ MBP 192(1) - MBP 102(1)",
+        "gun": "Çarşamba",
+        "baslangic": "14:55",
+        "bitis": "15:40",
+        "sube": "1",
+        "derslik": "C 601 [30]"
+    },
+    {
+        "ders_adi": "İnternet Programcılığı I \/ MBP 192(2) - MBP 102(2)",
+        "gun": "Çarşamba",
+        "baslangic": "17:40",
+        "bitis": "18:25",
+        "sube": "2",
+        "derslik": "C 601 [30]"
+    },
+    {
+        "ders_adi": "İnternet Programcılığı I \/ MBP 192(2) - MBP 102(2)",
+        "gun": "Çarşamba",
+        "baslangic": "18:35",
+        "bitis": "19:20",
+        "sube": "2",
+        "derslik": "C 601 [30]"
+    },
+    {
+        "ders_adi": "İnternet Programcılığı I \/ MBP 192(3) - MBP 102(3)",
+        "gun": "Çarşamba",
+        "baslangic": "19:30",
+        "bitis": "20:15",
+        "sube": "3",
+        "derslik": "C 601 [30]"
+    },
+    {
+        "ders_adi": "İnternet Programcılığı I \/ MBP 192(3) - MBP 102(3)",
+        "gun": "Çarşamba",
+        "baslangic": "20:25",
+        "bitis": "21:10",
+        "sube": "3",
+        "derslik": "C 601 [30]"
+    },
+    {
+        "ders_adi": "Web Programlama \/ MBP 214(1)",
+        "gun": "Cuma",
+        "baslangic": "08:30",
+        "bitis": "09:15",
+        "sube": "1",
+        "derslik": "C 602 [30]"
+    },
+    {
+        "ders_adi": "Web Programlama \/ MBP 214(1)",
+        "gun": "Cuma",
+        "baslangic": "09:25",
+        "bitis": "10:10",
+        "sube": "1",
+        "derslik": "C 602 [30]"
+    },
+    {
+        "ders_adi": "Web Programlama \/ MBP 214(1)",
+        "gun": "Cuma",
+        "baslangic": "10:20",
+        "bitis": "11:05",
+        "sube": "1",
+        "derslik": "C 602 [30]"
+    },
+    {
+        "ders_adi": "Web Programlama \/ MBP 214(2)",
+        "gun": "Cuma",
+        "baslangic": "11:15",
+        "bitis": "12:00",
+        "sube": "2",
+        "derslik": "C 602 [30]"
+    },
+    {
+        "ders_adi": "Web Programlama \/ MBP 214(2)",
+        "gun": "Cuma",
+        "baslangic": "12:10",
+        "bitis": "12:55",
+        "sube": "2",
+        "derslik": "C 602 [30]"
+    },
+    {
+        "ders_adi": "Web Programlama \/ MBP 214(2)",
+        "gun": "Cuma",
+        "baslangic": "13:05",
+        "bitis": "13:50",
+        "sube": "2",
+        "derslik": "C 602 [30]"
+    },
+    {
+        "ders_adi": "[MVG]YZ ve Makina Öğrenmesi",
+        "gun": "Cuma",
+        "baslangic": "14:00",
+        "bitis": "17:00",
+        "sube": "-",
+        "derslik": "C 602 [30]"
+    },
+    {
+        "ders_adi": "Web Programlama \/ MBP 214(3)",
+        "gun": "Cuma",
+        "baslangic": "17:40",
+        "bitis": "18:25",
+        "sube": "3",
+        "derslik": "C 602 [30]"
+    },
+    {
+        "ders_adi": "Web Programlama \/ MBP 214(3)",
+        "gun": "Cuma",
+        "baslangic": "18:35",
+        "bitis": "19:20",
+        "sube": "3",
+        "derslik": "C 602 [30]"
+    },
+    {
+        "ders_adi": "Web Programlama \/ MBP 214(3)",
+        "gun": "Cuma",
+        "baslangic": "19:30",
+        "bitis": "20:15",
+        "sube": "3",
+        "derslik": "C 602 [30]"
+    },
+    {
+        "ders_adi": "Motosiklet Sürüş Eğitimi",
+        "gun": "Çarşamba",
+        "baslangic": "12:00",
+        "bitis": "12:40",
+        "sube": "0",
+        "derslik": "A Blok Konferans Salonu"
+    },
+    {
+        "ders_adi": "Motosiklet Sürüş Eğitimi",
+        "gun": "Çarşamba",
+        "baslangic": "13:00",
+        "bitis": "13:59",
+        "sube": "0",
+        "derslik": "İEU Konferans Salonu"
+    },
+    {
+        "ders_adi": "Motosiklet Sürüş Eğitimi",
+        "gun": "Çarşamba",
+        "baslangic": "13:59",
+        "bitis": "13:59",
+        "sube": "0",
+        "derslik": "İEU Konferans Salonu"
+    }
+]
