@@ -94,7 +94,7 @@
 
     echo "Yıl: " . $yil . " → Yıl Metin: " . $yilMetin; // Yıl: 2026 → Yıl Metin: 2026
     echo "<br>";   
-    echo "Onay: " . ($onay ? "Evet" : "Hayır") . " → Onay Metin: '" . $onayMetin . "'"; // Onay: Evet → Onay Metin: '1'
+    echo "Onay: " . ($onay ? "Evet" : "Hayır") . " → Onay Metin: '" . $onayMetin . "'"; // On$y: Evet → Onay Metin: '1'
     echo "<br>";
 
     echo "<h3>Dizi ve Nesne Dönüşümleri (array) ve (object)</h3>";
