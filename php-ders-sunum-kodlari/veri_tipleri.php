@@ -1,4 +1,35 @@
 <?php
+
+$hizmet_adi = "Saç ve Sakal Kesimi"; //(String)
+echo "<h3>$hizmet_adi = \"Saç ve Sakal Kesimi\";</h3>";
+echo "Hizmet Adı: " . $hizmet_adi . "<br>";
+var_dump($hizmet_adi);
+
+$sure_dakika = 45; //(Integer)
+echo '<h3>$sure_dakika = 45;</h3>';
+echo "Hizmet Süresi: " . $sure_dakika . "<br>";
+var_dump($sure_dakika);
+
+
+$ucret = 350.50; //(Float)
+echo '<h3>$ucret = 350.50;</h3>';
+echo "Hizmet Ücreti: " . $ucret . "<br>";
+var_dump($ucret);
+
+$kampanya_var_mi = true; //(Boolean)
+echo '<h3>$kampanya_var_mi = true;</h3>';
+echo "Kampanya Var mı?: " . ($kampanya_var_mi ? "Evet" : "Hayır") . "<br>";
+var_dump($kampanya_var_mi);
+
+$ekipmanlar = ["Makas", "Ustura", "Tarak"]; //(Array)
+echo '<h3>$ekipmanlar = ["Makas", "Ustura", "Tarak"];</h3>';
+var_dump($ekipmanlar);
+
+
+
+echo "<hr><h2>Veri Tipleri:</h2>";
+
+
 // 1. String (Metinsel) - Çift veya tek tırnak içinde yazılır
 $metin = "İEÜ Bilgisayar Prog. PHP"; 
 
