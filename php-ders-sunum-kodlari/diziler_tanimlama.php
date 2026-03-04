@@ -5,6 +5,9 @@ $hizmetler = array(
     "Sakal Tıraşı", 
     "Cilt Bakımı");
 
+//alternatif tanımlama yöntemi (kısa dizi sözdizimi)
+$meyveler = ["Elma", "Armut", "Muz", "Çilek"];
+
 /* Dizinin yapısını incelemek için var_dump kullanılır
 veya print_r kullanılabilir. 
 var_dump daha detaylı bilgi verir (tip ve uzunluk gibi), 
@@ -14,4 +17,8 @@ var_dump($hizmetler);
 echo "<br><br>";
 echo "<h2>Hizmetler Dizisi İçeriği:</h2>";
 print_r($hizmetler);
+echo "<br><br>";
+echo "<h2>Meyveler Dizisi Yapısı:</h2>";    
+echo "<h2>Meyveler Dizisi İçeriği:</h2>";
+print_r($meyveler);
 ?>
