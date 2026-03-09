@@ -15,8 +15,8 @@
     if (isset($_GET['sayi1']) && isset($_GET['sayi2'])) {
         
         // Formdan gelen verileri değişkenlere atayalım 
-        $s1 = $_GET['sayi1'];
-        $s2 = $_GET['sayi2'];
+        $s1 = (int)$_GET['sayi1'];
+        $s2 = (int)$_GET['sayi2'];
         
         // Aritmetik toplama işlemi 
         $toplam = $s1 + $s2;

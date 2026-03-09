@@ -15,8 +15,8 @@
     if (isset($_POST['sayi1']) && isset($_POST['sayi2'])) {
         
         // Formdan gelen verileri değişkenlere atayalım 
-        $s1 = $_POST['sayi1'];
-        $s2 = $_POST['sayi2'];
+        $s1 = settype($_POST['sayi1'], "integer");
+        $s2 = (int)$_POST['sayi2'];
         
         // Aritmetik toplama işlemi 
         $toplam = $s1 + $s2;

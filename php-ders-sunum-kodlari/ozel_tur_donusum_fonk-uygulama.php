@@ -61,4 +61,7 @@
     echo "<br>Alternatif (int) ile dönüştürme: " . $veri 
         . " → Yıl: " . $yil_int_manual; // Veri: 2026 yılı → Yıl: 2026
     echo "<hr>"; 
+
+
+    
 ?>
