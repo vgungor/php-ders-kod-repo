@@ -27,4 +27,12 @@ echo "<br>";
 echo $ogrenciler[3][0]; // Volkan
 echo "<br>";
 echo $ogrenciler[3][3]; // MIS
+echo "<br>";
+
+
+echo "<hr>";
+echo "<h3>Foreach ile Çok Boyutlu Dizi</h3>";
+foreach ($ogrenciler as $ogrenci) {
+    echo "Ad: " . $ogrenci[0] . ", Yaş: " . $ogrenci[1] . ", Bölüm: " . $ogrenci[2] . "<br>";
+}
 ?>
