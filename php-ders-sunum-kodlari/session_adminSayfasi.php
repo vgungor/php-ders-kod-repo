@@ -9,9 +9,23 @@ if(!isset($_SESSION["kullanici"])){
 }
 
 echo "Hoşgeldin " . $_SESSION["kullanici"] . "<br>";
+echo "Rolün: " . $_SESSION["role"] . "<br>";
+echo "Son Aktivite: " . date("Y-m-d H:i:s", $_SESSION["last_activity"]) . "<br>";
 echo "Session ID: " . $sid;
 
 ?>
+<h3> Dersler Listesi </h3>
+<ul>
+    <?php foreach($_SESSION["Dersler"] as $ders): ?>
+        <li><?php echo $ders; ?></li>
+    <?php endforeach; ?>
+</ul>
+<h3> Kayıt Bilgileri </h3>
+<ul>
+    <li>Ad: <?php echo $_SESSION["kayitBilgileri"]["kullaniciDetay"]["ad"]; ?></li>
+    <li>Soyad: <?php echo $_SESSION["kayitBilgileri"]["kullaniciDetay"]["soyad"]; ?></li>
+    <li>Email: <?php echo $_SESSION["kayitBilgileri"]["kullaniciDetay"]["email"]; ?></li>
+</ul>
 
 <form action="session_logout.php" method="POST">
     <button type="submit" name="logout">Çıkış Yap</button>

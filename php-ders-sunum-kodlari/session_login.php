@@ -11,6 +11,16 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     if($username == "admin" && $password == "1234"){
 
         $_SESSION["kullanici"] = $username;
+        $_SESSION["role"] = "admin";
+        $_SESSION["last_activity"] = time(); // Son aktivite zamanını kaydet
+        $_SESSION["Dersler"] = ["PHP", "JavaScript", "HTML", "CSS"]; // Örnek dizi
+        $_SESSION["kayitBilgileri"] = [
+            "kullaniciDetay" => [
+                "ad" => "Volkan",
+                "soyad" => "Güngör",
+                "email" => "volkan@example.com"
+            ]
+        ];
 
         header("Location: session_adminSayfasi.php");
         exit;
