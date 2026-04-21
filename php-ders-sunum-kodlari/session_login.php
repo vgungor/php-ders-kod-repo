@@ -6,6 +6,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 
     $username = htmlspecialchars($_POST["username"]);
     $password = $_POST["password"];
+    $_SESSION["heryerde"] = "Heryerden erişilir...";
 
     // Basit kontrol (gerçekte DB olur)
     if($username == "admin" && $password == "1234"){

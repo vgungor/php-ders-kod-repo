@@ -11,6 +11,8 @@ if(!isset($_SESSION["kullanici"])){
 echo "Hoşgeldin " . $_SESSION["kullanici"] . "<br>";
 echo "Session ID: " . $sid;
 
+echo "<br>Heryerdeki Değer: " . $_SESSION["heryerde"]; // Her sayfada erişilebilir olduğunu gösterir
+
 ?>
 
 <form action="session_logout.php" method="POST">

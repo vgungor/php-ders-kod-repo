@@ -27,6 +27,8 @@ echo "Session ID: " . $sid;
     <li>Email: <?php echo $_SESSION["kayitBilgileri"]["kullaniciDetay"]["email"]; ?></li>
 </ul>
 
+<?php echo "<br>Heryerdeki Değer: " . $_SESSION["heryerde"]; // Her sayfada erişilebilir olduğunu gösterir ?>
+
 <form action="session_logout.php" method="POST">
     <button type="submit" name="logout">Çıkış Yap</button>
 </form>
