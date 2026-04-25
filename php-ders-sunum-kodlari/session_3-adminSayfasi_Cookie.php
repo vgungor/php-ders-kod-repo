@@ -1,10 +1,11 @@
 <h3> Session Yönetimi - Admin Sayfası </h3>
 <?php
 session_start();
-$sid = session_id();
+// $sid = session_id();
+$sid = $_COOKIE["PHPSESSID"]; // Session ID'yi cookie üzerinden alarak gösterelim
 
 if(!isset($_SESSION["kullanici"])){
-    header("Location: login.html");
+    header("Location: session_1-loginBeniHatirla.html");
     exit;
 }
 
@@ -29,6 +30,6 @@ echo "Session ID: " . $sid;
 
 <?php echo "<br>Heryerdeki Değer: " . $_SESSION["heryerde"]; // Her sayfada erişilebilir olduğunu gösterir ?>
 
-<form action="session_logout_Cookie.php" method="POST">
+<form action="session_5-logout_Cookie.php" method="POST">
     <button type="submit" name="logout">Çıkış Yap</button>
 </form>

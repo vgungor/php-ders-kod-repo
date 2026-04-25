@@ -4,7 +4,7 @@ session_start();
 $sid = session_id();
 
 if(!isset($_SESSION["kullanici"])){
-    header("Location: login.html");
+    header("Location: session_login.html"); 
     exit;
 }
 

@@ -1,0 +1,56 @@
+CREATE TABLE egitmenler (
+    egitmen_id INT AUTO_INCREMENT PRIMARY KEY,
+    ad VARCHAR(50) NOT NULL,
+    soyad VARCHAR(50) NOT NULL,
+    email VARCHAR(100)
+);
+
+CREATE TABLE dersler (
+    ders_id INT AUTO_INCREMENT PRIMARY KEY,
+    ders_adi VARCHAR(100) NOT NULL,
+    kredi INT NOT NULL,
+    egitmen_id INT,
+    FOREIGN KEY (egitmen_id) REFERENCES egitmenler(egitmen_id)
+);
+
+CREATE TABLE ogrenciler (
+    ogrenci_id INT AUTO_INCREMENT PRIMARY KEY,
+    ogrenci_no VARCHAR(20) NOT NULL UNIQUE,
+    ad VARCHAR(50) NOT NULL,
+    soyad VARCHAR(50) NOT NULL,
+    email VARCHAR(100),
+    kayit_tarihi DATE
+);
+
+CREATE TABLE notlar (
+    not_id INT AUTO_INCREMENT PRIMARY KEY,
+    ogrenci_id INT NOT NULL,
+    ders_id INT NOT NULL,
+    vize INT,
+    final INT,
+    FOREIGN KEY (ogrenci_id) REFERENCES ogrenciler(ogrenci_id),
+    FOREIGN KEY (ders_id) REFERENCES dersler(ders_id)
+);
+
+INSERT INTO egitmenler (ad, soyad, email) VALUES
+('Ahmet', 'Yılmaz', 'ahmet.yilmaz@okul.edu.tr'),
+('Ayşe', 'Demir', 'ayse.demir@okul.edu.tr'),
+('Mehmet', 'Kaya', 'mehmet.kaya@okul.edu.tr');
+
+INSERT INTO dersler (ders_adi, kredi, egitmen_id) VALUES
+('PHP ile Web Programlama', 4, 1),
+('Veritabanı Yönetimi', 3, 2),
+('JavaScript Programlama', 4, 3);
+
+INSERT INTO ogrenciler (ogrenci_no, ad, soyad, email, kayit_tarihi) VALUES
+('2025001', 'Ali', 'Yıldız', 'ali@mail.com', '2025-09-15'),
+('2025002', 'Zeynep', 'Acar', 'zeynep@mail.com', '2025-09-15'),
+('2025003', 'Mert', 'Şahin', 'mert@mail.com', '2025-09-16');
+
+INSERT INTO notlar (ogrenci_id, ders_id, vize, final) VALUES
+(1, 1, 70, 85),
+(1, 2, 60, 75),
+(2, 1, 80, 90),
+(2, 3, 65, 70),
+(3, 2, 50, 55),
+(3, 3, 40, 60);
