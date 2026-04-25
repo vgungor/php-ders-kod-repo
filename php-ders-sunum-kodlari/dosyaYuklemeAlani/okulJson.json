@@ -1,0 +1,51 @@
+{
+  "ogrenciler": [
+    {
+      "id": 1001,
+      "ad": "Ali",
+      "soyad": "Yılmaz",
+      "email": "ali.yilmaz@mail.com",
+      "yas": 20,
+      "bolum": "Bilgisayar Programcılığı",
+      "dersler": [
+        {
+          "dersKodu": "MBP192",
+          "dersAdi": "İnternet Programcılığı",
+          "vize": 70,
+          "final": 80
+        },
+        {
+          "dersKodu": "MBP102",
+          "dersAdi": "Programlama Temelleri",
+          "vize": 60,
+          "final": 75
+        }
+      ]
+    },
+    {
+      "id": 1002,
+      "ad": "Ayşe",
+      "soyad": "Demir",
+      "email": "ayse.demir@mail.com",
+      "yas": 21,
+      "bolum": "Yönetim Bilişim Sistemleri",
+      "dersler": [
+        {
+          "dersKodu": "MBP214",
+          "dersAdi": "Web Programlama",
+          "vize": 85,
+          "final": 90
+        }
+      ]
+    },
+    {
+      "id": 1003,
+      "ad": "Mehmet",
+      "soyad": "Kara",
+      "email": "mehmet.kara@mail.com",
+      "yas": 19,
+      "bolum": "Bilgisayar Programcılığı",
+      "dersler": []
+    }
+  ]
+}

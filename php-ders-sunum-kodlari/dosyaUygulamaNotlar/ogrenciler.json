@@ -1,0 +1,34 @@
+{
+  "ogrenciler": [
+    {
+      "okul_no": "2024010001",
+      "ad_soyad": "Ahmet Yılmaz",
+      "notlar": {
+        "vize": 75,
+        "final": 85,
+        "odev": 90,
+        "proje": 95
+      }
+    },
+    {
+      "okul_no": "2024010002",
+      "ad_soyad": "Ayşe Demir",
+      "notlar": {
+        "vize": 88,
+        "final": 92,
+        "odev": 100,
+        "proje": 80
+      }
+    },
+    {
+      "okul_no": "2024010003",
+      "ad_soyad": "Mehmet Kaya",
+      "notlar": {
+        "vize": 60,
+        "final": 70,
+        "odev": 50,
+        "proje": 85
+      }
+    }
+  ]
+}

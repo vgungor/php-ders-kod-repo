@@ -1,0 +1,28 @@
+{
+    "sonuclar": [
+        {
+            "okul_no": "2024010001",
+            "ad_soyad": "Ahmet Yılmaz",
+            "donem_sonu_notu": 84.25,
+            "harf_notu": "BB",
+            "katsayi": 3,
+            "statu": "Başarılı"
+        },
+        {
+            "okul_no": "2024010002",
+            "ad_soyad": "Ayşe Demir",
+            "donem_sonu_notu": 92.4,
+            "harf_notu": "AA",
+            "katsayi": 4,
+            "statu": "Başarılı"
+        },
+        {
+            "okul_no": "2024010003",
+            "ad_soyad": "Mehmet Kaya",
+            "donem_sonu_notu": 63.25,
+            "harf_notu": "DD",
+            "katsayi": 1,
+            "statu": "Koşullu Geçer"
+        }
+    ]
+}
