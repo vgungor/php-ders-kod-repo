@@ -9,7 +9,8 @@ setcookie("kullanici", "Volkan", time() + 3600, "/");
 setcookie("dil", "tr", time() + (86400 * 30), "/", "", true, true);
 ?>
 
-<p>Çerez oluşturuldu. Lütfen İncele(inspect F12) >> Uygulama(Application) >> Cookies altında kullnıcı cookie varlığını kontrol ediniz. Sonra aşağıdaki kodu çalıştırınız.
+<p>Çerez oluşturuldu. Lütfen İncele(inspect F12) >> Uygulama(Application) >>
+     Cookies altında kullnıcı cookie varlığını kontrol ediniz. Sonra aşağıdaki kodu çalıştırınız.
 
 </p>
 <h4>Çerez Okuma</h4>
