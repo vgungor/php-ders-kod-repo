@@ -1,7 +1,16 @@
 <?php
-    function selamVer() {
+    function selamVerPsiz() {
         echo "Merhaba Dünya";
     }
 
-    selamVer(); // çağırma
+    selamVerPsiz(); // çağırma
+?>
+
+
+<?php
+    function selamVerP($metin) {
+        echo "Gelen parametre: " . $metin;
+    }
+
+    selamVerP("Merhaba, dünya!"); 
 ?>
